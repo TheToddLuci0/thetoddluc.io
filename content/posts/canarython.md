@@ -1,7 +1,6 @@
 ---
 title: "Canarython - A tool for creating Canaries"
 date: 2022-12-29T14:11:52-06:00
-draft: true
 categories:
   - Tools
 tags:
