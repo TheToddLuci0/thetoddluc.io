@@ -1,0 +1,25 @@
+baseURL = 'https://thetoddluc.io/'
+languageCode = 'en-us'
+title = 'TheToddLuci0'
+theme = 'ficurinia'
+
+copyright = "TheToddLuci0"
+
+[params]
+author = 'TheToddLuci0'
+logo = '/logo.png'
+
+[menu]
+[[menu.icons]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/TheToddLuci0"
+    weight = 10
+[[menu.icons]]
+    identifier = "mastodon"
+    name = "Mastodon"
+    url = "https://infosec.exchange/@TheToddLuci0"
+[[menu.icons]]
+    identifier = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/TheToddLuci0"
