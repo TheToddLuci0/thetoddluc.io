@@ -8,6 +8,8 @@ copyright = "TheToddLuci0"
 [params]
 author = 'TheToddLuci0'
 logo = '/logo.png'
+enableShareOnFediverse = true
+fediverseAccount = "@TheToddLuci0@infosec.exchange"
 
 [menu]
 [[menu.icons]]
@@ -23,3 +25,6 @@ logo = '/logo.png'
     identifier = "twitter"
     name = "Twitter"
     url = "https://twitter.com/TheToddLuci0"
+
+[outputs]
+    home = ["HTML", "JSON"]
