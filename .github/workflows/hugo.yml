@@ -35,8 +35,6 @@ jobs:
       HUGO_ENVIRONMENT: production
       TZ: America/Chicago
     steps:
-      - name: Update Submodules
-        run: git submodule update -f
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
