@@ -12,11 +12,6 @@
 			"version": "latest",
 			"extended": true
 		}
-	},
-	"portsAttributes": {
-		"1313": {
-			"label": "Debug UI"
-		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
