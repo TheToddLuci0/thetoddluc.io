@@ -21,10 +21,6 @@ fediverseAccount = "@TheToddLuci0@infosec.exchange"
     identifier = "mastodon"
     name = "Mastodon"
     url = "https://infosec.exchange/@TheToddLuci0"
-[[menu.icons]]
-    identifier = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com/TheToddLuci0"
 
 [outputs]
     home = ["HTML", "JSON"]
