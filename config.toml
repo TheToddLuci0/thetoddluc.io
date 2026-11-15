@@ -1,15 +1,22 @@
 baseURL = 'https://thetoddluc.io/'
-languageCode = 'en-us'
+# languageCode = 'en-us'
+language.locale = 'en-US' 
 title = 'TheToddLuci0'
 theme = 'ficurinia'
 
 copyright = "TheToddLuci0"
 
 [params]
-author = 'TheToddLuci0'
 logo = '/logo.png'
+logoAltText = 'Logo'
+favicon = '/favicon.png'
+faviconIco = '/favicon.co'
+appletouch = "/apple-touch-icon.png"
+svgicon = "/logo.svg"
 enableShareOnFediverse = true
 fediverseAccount = "@TheToddLuci0@infosec.exchange"
+[params.author]
+  name = 'TheToddLuci0'
 
 [menu]
 [[menu.icons]]
@@ -23,7 +30,7 @@ fediverseAccount = "@TheToddLuci0@infosec.exchange"
     url = "https://infosec.exchange/@TheToddLuci0"
 
 [outputs]
-    home = ["HTML", "JSON"]
+    home = ["HTML", "JSON", "rss"]
 
 # Needed for GH Pages
 # https://gohugo.io/host-and-deploy/host-on-github-pages/#step-5
